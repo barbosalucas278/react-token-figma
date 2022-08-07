@@ -8,6 +8,7 @@ function App() {
         <button className="btnTest">Boton de pruebaa</button>
         <button className="btnTest">Boton de pruebaa 2</button>
         <button className="btnTest">Boton de pruebaa 32</button>
+        <button className="btnTest">Boton de pruebaa 31</button>
       </header>
     </div>
   );
