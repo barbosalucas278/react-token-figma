@@ -16,9 +16,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build style-dictionary build",
+    "token": "style-dictionary build",
+    "build": "react-scripts build && style-dictionary build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publicar": "git add . && git commit -m 'publicacion' && git push origin master && npm run deploy"
   },
   "eslintConfig": {
     "extends": [

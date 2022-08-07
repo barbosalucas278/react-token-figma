@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button className="btnTest">Boton de pruebaa</button>
+        <button className="btnTest">Boton de pruebaa 2</button>
       </header>
     </div>
   );

@@ -9,12 +9,9 @@
             "buildPath": "src/",
             "files": [
                 {
-                    "destination": "_variables.scss",
-                    "format": "scss/variables"
+                    "destination": "_variables.css",
+                    "format": "css/variables"
                 }
-            ],
-            "actions": [
-                "copy_assets"
             ]
         }
     }
