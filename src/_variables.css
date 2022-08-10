@@ -9,14 +9,14 @@
   --sd-button-ghost-text: #ffffff;
   --sd-border-width-button-ghost: 4;
   --sd-border-width-none: 0;
-  --sd-border-width-xs: 1;
+  --sd-border-width-xs: 1px;
   --sd-border-width-sm: 2;
   --sd-border-width-md: 4;
   --sd-border-width-lg: 8;
   --sd-border-radius-button-ghost: 8;
   --sd-border-radius-card: 4;
   --sd-border-radius-sm: 4;
-  --sd-border-radius-lg: 8;
+  --sd-border-radius-lg: 8px;
   --sd-border-radius-xl: 16;
   --sd-font-sizes-card-title: 13.6;
   --sd-font-sizes-card-content: 10.4;
