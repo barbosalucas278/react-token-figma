@@ -14,5 +14,7 @@ code {
 }
 
 .btnTest {
-  background-color: var(--sd-button-primary-background)
+  background-color: var(--sd-colors-pink-400);
+  border-radius: var(--sd-border-radius-lg);
+  border-width: var(--sd-border-width-xs);
 } 
