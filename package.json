@@ -10,14 +10,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "style-dictionary": "^3.7.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "token": "style-dictionary build",
-    "build": "react-scripts build && style-dictionary build",
+    "build": "cd ./node_modules && node token-transformer ../tokens/tokens.json --expandTypography --expandShadow ../tokens/output.json && cd.. && react-scripts build && style-dictionary build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publicar": "git add . && git commit -m 'publicacion' && git push origin main && npm run deploy"

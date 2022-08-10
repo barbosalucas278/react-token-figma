@@ -1,18 +1,16 @@
 {
-    "source": [
-        "tokens/*.json"
-    ],
-    "platforms": {
-        "css": {
-            "transformGroup": "scss",
-            "prefix": "sd",
-            "buildPath": "src/",
-            "files": [
-                {
-                    "destination": "_variables.css",
-                    "format": "css/variables"
-                }
-            ]
+  "source": ["tokens/output.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "prefix": "sd",
+      "buildPath": "src/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
         }
+      ]
     }
+  }
 }
