@@ -22,7 +22,7 @@
     "build": "cd ./node_modules && node token-transformer ../tokens/tokens.json --expandTypography --expandShadow ../tokens/output.json && react-scripts build && style-dictionary build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publicar": "git add . && git commit -m 'publicacion' && git push origin main && npm run deploy"
+    "publicar": "git add . && git commit -m 'publicacion' && git push origin main"
   },
   "eslintConfig": {
     "extends": [
