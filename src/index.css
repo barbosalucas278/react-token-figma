@@ -18,3 +18,9 @@ code {
   border-radius: var(--sd-border-radius-lg);
   border-width: var(--sd-border-width-xs);
 } 
+.btnTest2 {
+  background-color: var(--sd-colors-pink-100);
+  border-radius: var(--sd-border-radius-lg);
+  border-width: var(--sd-border-width-xs);
+  font-weight: var(--sd-font-weights-heading-bold);
+} 
